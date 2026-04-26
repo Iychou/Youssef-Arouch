@@ -17,10 +17,13 @@
             <ul class="nav-menu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#signature" class="nav-link">Signature</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#certificates" class="nav-link">Certificates</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#lab" class="nav-link">Lab</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -34,12 +37,24 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="stars"></div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">Welcome to My Portfolio</h1>
-                <p class="hero-subtitle">Creative & Professional Solutions</p>
-                <button class="cta-button" id="cvButton">CURRICULUM VITAE</button>
-            </div>
+        <div class="hero-grid"></div>
+        <div class="aurora-layer aurora-one"></div>
+        <div class="aurora-layer aurora-two"></div>
+        <div class="energy-ring ring-one"></div>
+        <div class="energy-ring ring-two"></div>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Welcome to My Portfolio</h1>
+                    <p class="hero-subtitle">Creative & Professional Solutions</p>
+                    <button class="cta-button" id="cvButton">CURRICULUM VITAE</button>
+                    <div class="hero-pills">
+                        <span class="hero-pill"><i class="fas fa-microchip"></i> IT Infrastructure</span>
+                        <span class="hero-pill"><i class="fas fa-microchip"></i> IT Support</span>
+                        <span class="hero-pill"><i class="fas fa-database"></i> Oracle DBA Path</span>
+                        <span class="hero-pill"><i class="fas fa-microchip"></i> Cybersecurity</span>
+                        <span class="hero-pill"><i class="fas fa-rocket"></i> Innovation Mindset</span>
+                    </div>
+                </div>
             <div class="terminal-window">
                 <div class="terminal-header">
                     <div class="terminal-buttons">
@@ -48,12 +63,12 @@
                         <span class="terminal-btn maximize"></span>
                     </div>
                     <div class="terminal-title">
-                        <i class="fahs fa-terminal"></i> youssef's terminal
+                        <i class="fas fa-terminal"></i> youssef's terminal
                     </div>
                 </div>
                 <div class="terminal-body">
                     <div class="terminal-line">
-                        <span class="prompt">➜</span>
+                        <span class="prompt">&gt;</span>
                         <span class="user">user</span>
                         <span class="host">@YOUSSEF AROUCH</span>
                         <span class="path">~</span>
@@ -61,7 +76,7 @@
                     </div>
                     
                     <div class="terminal-line">
-                        <span class="command-prefix">➜</span>
+                        <span class="command-prefix">&gt;</span>
                         <span class="command" data-text="cat whoami.txt"></span>
                         <span class="cursor blink"></span>
                     </div>
@@ -77,30 +92,30 @@
                     <div class="terminal-line empty"></div>
 
                     <div class="terminal-line">
-                        <span class="command-prefix">➜</span>
+                        <span class="command-prefix">&gt;</span>
                         <span class="command" data-text="load skills --all"></span>
                         <span class="cursor blink"></span>
                     </div>
                     <div class="terminal-line output">
-                        <span class="output-text fade-in">✓ Web Development</span>
+                        <span class="output-text fade-in">[OK] Web Development</span>
                     </div>
                     <div class="terminal-line output">
-                        <span class="output-text fade-in">✓ UI/UX Design</span>
+                        <span class="output-text fade-in">[OK] UI/UX Design</span>
                     </div>
                     <div class="terminal-line output">
-                        <span class="output-text fade-in">✓ Strategic Thinking</span>
+                        <span class="output-text fade-in">[OK] Strategic Thinking</span>
                     </div>
                     <div class="terminal-line output">
-                        <span class="output-text fade-in">✓ junior oracle database admin</span>
+                        <span class="output-text fade-in">[OK] junior oracle database admin</span>
                     </div>
                     <div class="terminal-line output">
-                        <span class="output-text fade-in">✓ IT technician</span>
+                        <span class="output-text fade-in">[OK] IT technician</span>
                     </div>
 
                     <div class="terminal-line empty"></div>
 
                     <div class="terminal-line">
-                        <span class="command-prefix">➜</span>
+                        <span class="command-prefix">&gt;</span>
                         <span class="command" data-text="echo 'Let\\'s build something amazing!'"></span>
                         <span class="cursor blink"></span>
                     </div>
@@ -111,7 +126,7 @@
                     <div class="terminal-line empty"></div>
 
                     <div class="terminal-line">
-                        <span class="command-prefix">➜</span>
+                        <span class="command-prefix">&gt;</span>
                         <span class="command-typing">_</span>
                     </div>
                 </div>
@@ -135,16 +150,89 @@
                     <p>My approach combines strategic thinking with creative problem-solving to achieve outstanding outcomes.</p>
                     <div class="stats">
                         <div class="stat-item">
-                            <h3>2</h3>
-                            <p>Month Experience</p>
+                            <h3 class="counter" data-target="2">0</h3>
+                            <p>Months Experience</p>
                         </div>
                         <div class="stat-item">
-                            <h3>10+</h3>
+                            <h3 class="counter" data-target="10">0</h3>
                             <p>Projects Completed</p>
                         </div>
                         <div class="stat-item">
-                            <h3>4</h3>
+                            <h3 class="counter" data-target="4">0</h3>
                             <p>Certificates Earned</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Section -->
+    <section id="signature" class="signature">
+        <div class="container">
+            <h2 class="section-title">Signature Services</h2>
+            <p class="signature-subtitle">High-impact services designed to combine infrastructure reliability, data intelligence, and modern user experience.</p>
+            <div class="signature-grid">
+                <article class="signature-card">
+                    <div class="signature-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Infrastructure & Systems Reliability</h3>
+                    <p>Designing and maintaining stable, high-performance IT environments. I ensure system availability through proactive monitoring, automation, and efficient resource management across Linux and enterprise systems.<p>
+                </article>
+                <article class="signature-card">
+                    <div class="signature-icon"><i class="fas fa-server"></i></div>
+                    <h3>Network Architecture & Optimization</h3>
+                    <p>Building secure and scalable network infrastructures. From configuration to troubleshooting, I focus on performance, reliability, and seamless connectivity across enterprise environments.</p>
+                </article>
+                <article class="signature-card">
+                    <div class="signature-icon"><i class="fas fa-vr-cardboard"></i></div>
+                    <h3>Oracle Database Administration</h3>
+                    <p>Managing Oracle databases with a focus on performance, security, and data integrity. Experienced in backup/recovery, query optimization, and ensuring high availability for critical systems.</p>
+                </article>
+                <article class="signature-card">
+                    <div class="signature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Cybersecurity & Risk Mitigation</h3>
+                    <p>Applying security best practices to protect systems, networks, and data. Focused on vulnerability assessment, access control, and strengthening infrastructure against modern threats.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="journey">
+        <div class="container">
+            <h2 class="section-title">Journey Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">AVRIL - NOW</span>
+                        <h3>IT support intern- Sofrecom</h3>
+                        <p>IT support professionals are essential problem solvers, maintain and troubleshoot computer systems and networks problems, ensuring smooth and efficient operations. </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">MARS- AVRIL 2025</span>
+                        <h3>Network & IT Operations intern -  SURVEY TECH</h3>
+                        <p>Preparation and identification of computer cables and labeling of the sockets in the rack, preparation of the machines.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">2025 - 2026</span>
+                        <h3>Database administrator intern- PROXIMITY MANAGEMENT</h3>
+                        <p>Focused on Oracle database architecture, performance, and operational reliability for real-world systems.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-year">AVRIL - MAI 2025</span>
+                        <h3>Network technicien intern - PARMATEC</h3>
+                        <p>Setting up a site-to-site VPN connection between the company's headquarters and another branch
+User management and configuration of a DNS server with Active Directory<p>
                     </div>
                 </div>
             </div>
@@ -243,7 +331,7 @@
                         <i class="fas fa-graduation-cap"></i>
                     </div>
                     <h3>baccalaureate</h3>
-                    <p class="education-field">sceance baccalaureate </p>
+                    <p class="education-field">scientific baccalaureate </p>
                     <p class="education-school">Youssef iben tachafin high school</p>
                     <p class="education-year">2021 - 2022</p>
                 </div>
@@ -278,8 +366,8 @@
                     <div class="certificate-icon">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h3>Python essentials<</h3>
-                    <p class="certificate-issuer">cisco networking academy/p>
+                    <h3>cyber security essentials</h3>
+                    <p class="certificate-issuer">Cisco Networking Academy</p>
                     <p class="certificate-date">Issued:  2024</p>
                     <a href="python_certificate.png" class="certificate-link"> view certificate</a>
                 </div>
@@ -287,7 +375,16 @@
                     <div class="certificate-icon">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h3>cyber security essentials</h3>
+                    <h3>Automate Cybersecurity Tasks with Python</h3>
+                    <p class="certificate-issuer">Coursera</p>
+                    <p class="certificate-date">Issued: 2026</p>
+                    <a href="coursera.png" class="certificate-link"> view certificate</a>
+                </div>
+                <div class="certificate-card">
+                    <div class="certificate-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Python essentials</h3>
                     <p class="certificate-issuer">Cisco networking academy</p>
                     <p class="certificate-date">Issued: 2024</p>
                     <a href="cyber_sec.png" class="certificate-link"> view certificate</a>
@@ -296,10 +393,44 @@
                     <div class="certificate-icon">
                         <i class="fas fa-award"></i>
                     </div>
-                    <h3>Oracle dba</h3>
+                    <h3>Oracle DBA</h3>
                     <p class="certificate-issuer">Supemir academy</p>
                     <p class="certificate-date">Issued: 2026</p>
                     <a href="db_oracle_certificate.png" class="certificate-link"> view certificate</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovation Lab Section -->
+    <section id="lab" class="lab">
+        <div class="container">
+            <h2 class="section-title">Innovation Lab</h2>
+            <p class="lab-subtitle">A live view of what I am currently studying, building, and exploring.</p>
+            <div class="lab-grid">
+                <div class="lab-card">
+                    <h3><i class="fas fa-flask"></i> Currently Exploring</h3>
+                    <ul>
+                        <li>Oracle performance tuning and backup recovery strategy</li>
+                        <li>Python automation for operational workflows</li>
+                        <li>Creative frontend motion and 3D interaction systems</li>
+                    </ul>
+                </div>
+                <div class="lab-card">
+                    <h3><i class="fas fa-satellite-dish"></i> Open To Collaborate</h3>
+                    <ul>
+                        <li>Monitoring and infrastructure projects</li>
+                        <li>Database-driven web applications</li>
+                        <li>Security-minded technical experiments</li>
+                    </ul>
+                </div>
+                <div class="lab-card">
+                    <h3><i class="fas fa-bullseye"></i> 2026 Focus</h3>
+                    <ul>
+                        <li>Designing and implementing secure network and systeme architectures </li>
+                        <li>Grow into a full Systeme, network and database administrator </li>
+                        <li>Finishing the cycber security to portecte systemes </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -394,7 +525,42 @@
                         </div>
                     </div>
                 </div>
-
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('Vaccin projet.png');">
+                        <div class="project-photo"></div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Ammouri-Meryem/Gestion-Vaccination-Nationale.git" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Vaccination management web application </h3>
+                        <p>Intelligent Vaccination Management System, aimed at modernizing and securing vaccination monitoring through a centralized platform</p>
+                        <div class="project-tags">
+                            <span class="tag">Oracle</span>
+                            <span class="tag">React</span>
+                            <span class="tag">Springboot</span>
+                            <span class="tag">Zabbix</span>
+                            <span class="tag">Nginx</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('network_monitoring.png');">
+                        <div class="project-photo"></div>
+                        <div class="project-overlay">
+                            <a href="https://github.com/Iychou/Network-Monitoring" target="_blank" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Network Monitoring</h3>
+                        <p>Implementation of a comprehensive network monitoring solution to ensure optimal performance and security.</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Scapy</span>
+                            <span class="tag">Wireshark</span>
+                        </div>
+                    </div>
+                </div>
                 <div class="project-card">
                     <div class="project-image" style="background-image: url('Zabbix_server.png');">
                         <div class="project-photo"></div>
@@ -458,9 +624,9 @@
         <div class="container">
             <p>&copy; 2026 Professional Portfolio. All rights reserved.</p>
             <div class="social-links">
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/yourprofile" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="https://twitter.com/yourprofile" target="_blank" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/youssef-arouch-5918b7298/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Iychou" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            
             </div>
         </div>
     </footer>
@@ -469,10 +635,15 @@
     <div id="cvModal" class="cv-modal">
         <div class="cv-modal-content">
             <button class="cv-modal-close">&times;</button>
-            <iframe src="CV_Prof.pdf" class="cv-iframe"></iframe>
+            <iframe src="CV pr.pdf" class="cv-iframe"></iframe>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
